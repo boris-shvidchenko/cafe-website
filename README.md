@@ -1,1 +1,1 @@
-Repo will store code for a fake cafe website. This project is to practice UI/UX and design concepts.
+Repo will store code for a fake cafe website.
