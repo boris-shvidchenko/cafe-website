@@ -22,7 +22,7 @@ export default function Home() {
     <main className='flex flex-col'>
       {modal && <Modal />}
       <Navbar />
-      {/* <Header /> */}
+      <Header />
       {/* <About /> */}
       {/* <Menu /> */}
       {/* <Contact /> */}

@@ -19,14 +19,15 @@ export default function Navbar() {
     const { modal, setModal } = useContext(Context);
 
     return (
-        <nav className='flex justify-between items-center h-16 bg-green-300'>
+        <nav className='flex justify-between items-center h-16 md:h-20 2xl:h-24 page-sizing'>
+            
             <Link href='/' className='md:hidden ml-10'>Logo</Link>
-            <section className='nav-link md:ml-28 lg:ml-40 xl:ml-52 2xl:ml-64'>
+            <section className='nav-link pl-5'>
                 <Link href='/'>Home</Link>
                 <Link href='/'>About</Link>
             </section>
             <Link href='/' className='hidden md:block'>Logo</Link>
-            <section className='nav-link md:mr-28 lg:mr-40 xl:mr-52 2xl:mr-64'>
+            <section className='nav-link pr-5'>
                 <Link href='/'>Menu</Link>
                 <Link href='/'>Contact</Link>
             </section>
