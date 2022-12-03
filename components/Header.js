@@ -1,6 +1,8 @@
 // Components
 import Image from 'next/image';
 
+
+
 export default function Header() {
     return (
         <header className='page-sizing relative'>
@@ -11,10 +13,13 @@ export default function Header() {
                 height={1700}
             />
             <div className='absolute top-0 left-0 bg-black/10 w-full h-full'></div>
-            <section className='absolute top-10 left-10 p-10'>
-                <h1 className='text-white text-4xl'>High quality since 2018</h1>
-                <p className='text-white'>Instagram</p>
-                <p className='text-white'>Facebook</p>
+            <section className='absolute top-4 sm:top-10 left-4 sm:left-10 p-10'>
+                <h1 className='header-h1 mb-3'>High quality coffee</h1>
+                <h1 className='header-h1 mb-8'>since 2018</h1>
+                <section className='flex items-center space-x-3'>
+                    <img className='cursor-pointer w-10 h-10' src='/icons/instagram.png' alt='Instagram logo' />
+                    <img className='cursor-pointer w-9 h-9' src='/icons/facebook.png' alt='Facebook logo' />
+                </section>
             </section>
         </header>
     )

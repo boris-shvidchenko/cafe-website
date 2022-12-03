@@ -16,4 +16,8 @@
         @apply md:ml-28 lg:ml-32 xl:ml-40 2xl:ml-64 md:mr-28 lg:mr-32 xl:mr-40 2xl:mr-64
     }
 
+    .header-h1 {
+        @apply text-white text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl
+    }
+
 }
