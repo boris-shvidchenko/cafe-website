@@ -7,17 +7,20 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Modal from '../components/Modal';
 
+// Context
+import { Context } from '../pages/_app';
+
 // Hooks
-import { useState } from 'react';
+import { useContext } from 'react';
 
 export default function Home() {
 
-  // State
-  const [modal, setModal] = useState(false);
+  // Get state from Context
+  const { modal } = useContext(Context);
 
   return (
     <main className='flex flex-col'>
-      {/* <Modal /> */}
+      {modal && <Modal />}
       <Navbar />
       {/* <Header /> */}
       {/* <About /> */}
