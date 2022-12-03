@@ -23,7 +23,7 @@ export default function Home() {
       {modal && <Modal />}
       <Navbar />
       <Header />
-      {/* <About /> */}
+      <About />
       {/* <Menu /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}

@@ -5,7 +5,7 @@
 @layer components {
     
     .nav-link {
-        @apply hidden md:flex md:space-x-14 lg:space-x-20 xl:space-x-32 2xl:space-x-44
+        @apply hidden md:flex md:space-x-14 lg:space-x-20 xl:space-x-32 2xl:space-x-36
     }
 
     .nav-link-mobile {
