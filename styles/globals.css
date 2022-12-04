@@ -20,4 +20,25 @@
         @apply text-white text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl
     }
 
+    .about-image {
+        @apply w-[83%] mx-auto sm:w-[90%] lg:w-[60%]
+    }
+    
+    .about-address {
+        @apply hidden xl:block mx-9 text-center text-xl
+    }
+
+    .about-address-mobile {
+        @apply xl:hidden mx-11 md:mx-1 text-xl
+    }
+
+    .nav-placeholder-div {
+        @apply relative -top-[80px] md:-top-[100px] lg:-top-[110px]
+    }
+
+    .body-headers {
+        @apply text-2xl sm:text-3xl md:text-4xl ml-10 md:ml-0 mb-4 lg:mb-10
+    }
+
+
 }

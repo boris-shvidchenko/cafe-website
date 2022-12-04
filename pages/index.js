@@ -24,7 +24,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
-      {/* <Menu /> */}
+      <Menu />
       {/* <Contact /> */}
       {/* <Footer /> */}
     </main>
