@@ -26,7 +26,7 @@ export default function Menu() {
             <p className='mx-10 md:mx-0'>We serve traditional coffee drinks, hot and cold, and have a selection of daily prepped foods. We also offer a selection soft drinks and snacks.</p>
             <section className='mb-20'>
                 <h3 className='text-lg sm:text-xl md:text-2xl ml-10 md:ml-0 my-4 lg:mb-8'>Drinks</h3>
-                <section className='flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto border-x border-gray-300'>
+                <section className='flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto pb-5 scrollbar-thin scrollbar-thumb-gray-500'>
                     {drinksArray}
                 </section>
             </section>

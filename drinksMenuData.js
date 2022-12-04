@@ -13,7 +13,7 @@ export const drinks = [
     },
     {
       "title": "Cappuccino",
-      "description": "Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.",
+      "description": "Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top.",
       "ingredients": [
         "Espresso",
         "Steamed Milk",
@@ -112,7 +112,7 @@ export const drinks = [
     },
     {
       "title": "Ristretto",
-      "description": "Ristretto is an espresso shot. It uses less hot water which creates a sweeter flavor compared to the bitter taste of a traditional shot of espresso or a doppio.",
+      "description": "Ristretto is an espresso shot that uses less hot water which creates a sweeter flavor compared to the bitter taste of a traditional shot of espresso.",
       "ingredients": [
         "Short pulled espresso"
       ],
@@ -121,7 +121,7 @@ export const drinks = [
     },
     {
       "title": "Flat White",
-      "description": "This Aussie-born drink is basically a cappuccino without the foam or chocolate sprinkle. It’s an espresso drink with steamed milk.",
+      "description": "A cappuccino without the foam or chocolate sprinkle. It’s an espresso drink with steamed milk.",
       "ingredients": [
         "Espresso",
         "Steamed Milk"
