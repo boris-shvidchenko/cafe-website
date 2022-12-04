@@ -19,7 +19,7 @@ export const drinks = [
         "Steamed Milk",
         "Foam"
       ],
-      "image": "https://images.pexels.com/photos/6166478/pexels-photo-6166478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "image": "https://images.pexels.com/photos/14232701/pexels-photo-14232701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 3
     },
     {

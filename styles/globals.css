@@ -29,7 +29,7 @@
     }
 
     .about-address-mobile {
-        @apply xl:hidden mx-11 md:mx-1 text-xl
+        @apply xl:hidden mx-10 md:mx-1 text-xl
     }
 
     .nav-placeholder-div {
