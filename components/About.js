@@ -5,6 +5,7 @@ export default function About() {
     // Note: width/height in below images have been set to 1000 as placeholders (Next Image components require the 2 attributes). The real sizes are in the class names.
     return (
         <div className='page-sizing mt-5 md:mt-10'>
+            <div id='about' className='relative -top-[80px] md:-top-[100px] lg:-top-[110px]'></div>
             <h1 className='text-2xl sm:text-3xl md:text-4xl ml-10 md:ml-0 mb-4 lg:mb-10'>Our Story</h1>
             <section className='lg:flex justify-between mb-10'>
 
@@ -20,7 +21,7 @@ export default function About() {
 
                 <section className='xl:flex flex-col space-y-4'>
                     <p className='hidden lg:block ml-9'>Opened in 2018, West Oceanside Coffee has been serving the local community with high quality coffee from locally sources products. We offer a variety of drinks, menu items, and other products. Drop by and grab something to go, hang out after a surf session, or simply come and enjoy our beach side location with your family!   </p>
-                    <p className= 'hidden xl:block mx-9 pb-8'>We are located just west of Carpinteria, on Oceanside Drive. Come say hello!</p>
+                    <p className= 'hidden xl:block mx-9 pb-5'>We are located just west of Carpinteria, on Oceanside Drive. Come say hello!</p>
                     <p className= 'hidden xl:block mx-9 text-center text-xl'>3480 Oceanside Drive</p>
                     <p className= 'hidden xl:block mx-9 text-center text-xl'>Santa Barbara, CA</p>
                 </section>
