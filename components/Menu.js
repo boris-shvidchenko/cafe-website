@@ -6,7 +6,7 @@ import { drinks } from '../drinksMenuData';
 
 export default function Menu() {
 
-    // drinksArray will map through, and store, the date from drinksMenuData.js
+    // drinksArray will map through, and store, the data from drinksMenuData.js
     const drinksArray = drinks.map((drink) => {
         return (
             <MenuDrinks 
@@ -19,6 +19,8 @@ export default function Menu() {
         )
     })
 
+    // foodArray will map through, and store, the data from foodMenuData.js
+
     return (
         <div className='page-sizing mt-5 md:mt-10'>
             <div id='menu' className='nav-placeholder-div'></div>
@@ -26,8 +28,14 @@ export default function Menu() {
             <p className='mx-10 md:mx-0'>We serve traditional coffee drinks, hot and cold, and have a selection of daily prepped foods. We also offer a selection soft drinks and snacks.</p>
             <section className='mb-20'>
                 <h3 className='text-lg sm:text-xl md:text-2xl ml-10 md:ml-0 my-4 lg:mb-8'>Drinks</h3>
-                <section className='flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto pb-5 scrollbar-thin scrollbar-thumb-gray-500'>
+                <section className='flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto pb-7 scrollbar-thin scrollbar-thumb-gray-500'>
                     {drinksArray}
+                </section>
+            </section>
+            <section className='mb-20'>
+                <h3 className='text-lg sm:text-xl md:text-2xl ml-10 md:ml-0 my-4 lg:mb-8'>Food</h3>
+                <section className='flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto pb-5 scrollbar-thin scrollbar-thumb-gray-500'>
+                    
                 </section>
             </section>
         </div>
