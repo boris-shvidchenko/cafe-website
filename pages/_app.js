@@ -23,7 +23,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="Boris Shvidchenko, Portfolio, Cafe, Website" />
         <meta name="author" content="Boris Shvidchenko" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Cafe</title>
+        <title>West Oceanside Coffee</title>
       </Head>
       <Component {...pageProps} />
     </Context.Provider>
