@@ -40,5 +40,17 @@
         @apply text-2xl sm:text-3xl md:text-4xl ml-10 md:ml-0 mb-4 lg:mb-10
     }
 
+    .contact-form-label {
+        @apply text-lg mb-2
+    }
+
+    .contact-form-section {
+        @apply flex flex-col
+    }
+
+    .contact-form-input {
+        @apply border outline-none border-gray-400 px-2 py-1 rounded-lg shadow-md
+    }
+
 
 }

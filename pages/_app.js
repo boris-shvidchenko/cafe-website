@@ -14,9 +14,10 @@ export default function MyApp({ Component, pageProps }) {
 
   // State
   const [modal, setModal] = useState(false);
+  const [inputData, setInputData] = useState({name:'', email:'', msg:'',});
 
   return (
-    <Context.Provider value={{modal, setModal}}>
+    <Context.Provider value={{modal, setModal, inputData, setInputData}}>
       <Head>
         <meta charSet='utf-8' />
         <meta name="description" content="Cafe website" />

@@ -9,6 +9,7 @@ export default function Header() {
                 alt='Image of a beach side coffee shop'
                 width={1700}
                 height={1700}
+                priority
             />
             <div className='absolute top-0 left-0 bg-black/10 w-full h-full'></div>
             <section className='absolute top-4 sm:top-10 left-4 sm:left-10 p-10'>
