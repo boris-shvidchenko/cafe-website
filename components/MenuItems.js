@@ -1,7 +1,7 @@
 // Components
 import Image from 'next/image';
 
-export default function MenuDrinks({ title, description, ingredients, img }) {
+export default function MenuItems({ title, description, ingredients, img }) {
 
     const ingr = ingredients.join(', ');
 
@@ -18,7 +18,7 @@ export default function MenuDrinks({ title, description, ingredients, img }) {
             </div>
             <h3 className='text-xl ml-3 mt-1 mb-2'>{title}</h3>
             <p className='mx-3 mb-3'>{description}</p>
-            <p className='mx-3 italic'>Contains: <span>{`${ingr}`}</span></p>
+            <p className='mx-3 italic'>{title !== 'Sweets' && 'Contains:'} <span>{`${ingr}`}</span></p>
         </div>
     )
 }
