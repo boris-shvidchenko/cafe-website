@@ -56,5 +56,13 @@
         @apply flex flex-col items-center
     }
 
+    .jobs-titles {
+        @apply font-semibold text-lg
+    }
+
+    .jobs-link {
+        @apply italic cursor-pointer
+    }
+
 
 }
