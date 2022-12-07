@@ -19,8 +19,9 @@ export default function Home() {
   const { modal } = useContext(Context);
 
   return (
-    <main className='flex flex-col'>
+    <main className='flex flex-col relative'>
       {modal && <Modal />}
+      <div className=' bg-gradient-to-b from-white to-[#ffad6e] w-full h-[2140px]  absolute top-96 -z-10'></div>
       <Navbar />
       <Header />
       <About />
