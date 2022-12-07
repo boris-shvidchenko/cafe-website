@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <main className='flex flex-col relative'>
       {modal && <Modal />}
-      <div className=' bg-gradient-to-b from-white to-[#ffad6e] w-full h-[2140px]  absolute top-96 -z-10'></div>
+      <div className=' bg-gradient-to-b from-white to-[#fa9d55] w-full h-[58%] sm:h-[61%] xl:h-[66%] 2xl:h-[68%] absolute top-96 -z-10'></div>
       <Navbar />
       <Header />
       <About />
