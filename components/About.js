@@ -11,7 +11,7 @@ export default function About() {
                 <p className='lg:hidden mx-10 md:mx-1 mb-7 md:mb-10'>Opened in 2018, West Oceanside Coffee has been serving the local community with high quality coffee from locally sources products. We offer a variety of drinks, menu items, and other products. Drop by and grab something to go, hang out after a surf session, or simply come and enjoy our beach side location with your family!</p>
                 <Image
                     src='/images/about.png'
-                    alt=''
+                    alt='An image of coffee being brewed.'
                     width={1000}
                     height={1000}
                     className='about-image xl:w-[580px] 2xl:w-[630px] xl:ml-0'
@@ -31,7 +31,7 @@ export default function About() {
                 </section>
                 <Image
                     src='/images/about2.png'
-                    alt=''
+                    alt='An image of a lifeguard tower on a beach, during sunset.'
                     width={1000}
                     height={1000}
                     className='about-image xl:w-[80%] xl:mt-5'

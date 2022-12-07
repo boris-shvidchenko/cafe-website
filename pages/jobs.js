@@ -20,7 +20,7 @@ export default function Jobs() {
             {modal && <Modal />}
             <Navbar />
             <JobListings />
-            {/* <Footer /> */}
+            <Footer />
         </main>
     )
 }
