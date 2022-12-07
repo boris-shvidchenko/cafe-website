@@ -45,20 +45,20 @@ export default function Contact() {
 
                     <section className='contact-form-section'>
                         <label className='contact-form-label' htmlFor='name'>Name</label>
-                        <input onChange={changeInputState} value={inputData.name} className='contact-form-input' id='name' name='name' type='text' />
+                        <input onChange={changeInputState} value={inputData.name} required className='contact-form-input' id='name' name='name' type='text' />
                     </section>
 
                     <section className='contact-form-section'>
                         <label className='contact-form-label' htmlFor='email'>Email</label>
-                        <input onChange={changeInputState} value={inputData.email} className='contact-form-input' id='email' name='email' type='email' />
+                        <input onChange={changeInputState} value={inputData.email} required className='contact-form-input' id='email' name='email' type='email' />
                     </section>
 
                     <section className='contact-form-section'>
                         <label className='contact-form-label' htmlFor='msg'>Message</label>
-                        <textarea onChange={changeInputState} value={inputData.msg} className='border outline-none max-h-72 min-h-[34px] border-gray-400 px-2 py-1 mb-4 rounded-lg shadow-md' id='message' name='msg' type='text' rows='4' cols='40'/>
+                        <textarea onChange={changeInputState} value={inputData.msg} required className='border outline-none max-h-72 min-h-[34px] border-gray-400 px-2 py-1 mb-4 rounded-lg shadow-md' id='message' name='msg' type='text' rows='4' cols='40'/>
                     </section>
 
-                    <button onClick={(e) => clearForm(e)} className='border border-gray-400 rounded-lg shadow-md w-40 h-7 mx-auto'>Send</button>
+                    <button onSubmit={(e) => clearForm(e)} className='border border-gray-400 rounded-lg shadow-md w-40 h-7 mx-auto'>Send</button>
 
                 </form>
 

@@ -13,7 +13,7 @@
     }
 
     .page-sizing {
-        @apply md:ml-28 lg:ml-32 xl:ml-40 2xl:ml-64 md:mr-28 lg:mr-32 xl:mr-40 2xl:mr-64
+        @apply md:mx-28 lg:mx-32 xl:mx-40 2xl:mx-64
     }
 
     .header-h1 {
@@ -50,6 +50,10 @@
 
     .contact-form-input {
         @apply border outline-none border-gray-400 px-2 py-1 rounded-lg shadow-md
+    }
+
+    .footer-social {
+        @apply flex flex-col items-center
     }
 
 

@@ -26,7 +26,7 @@ export default function Home() {
       <About />
       <Menu />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   )
 }
