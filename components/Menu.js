@@ -35,7 +35,6 @@ export default function Menu() {
 
     return (
         <div className='relative'>
-            {/* <div className=' bg-gradient-to-b from-white to-[#ffad6e] w-full h-[1220px] md:hidden absolute -top-16 -z-10'></div> */}
             <div className='page-sizing mt-5 md:mt-10 lg:mt-14 '>
                 <div id='menu' className='nav-placeholder-div'></div>
                 <h1 className='body-headers lg:mb-6'>Our Products</h1>

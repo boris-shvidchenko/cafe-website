@@ -8,18 +8,18 @@ export default function Footer() {
                 <p>Saturday: 7am - 5pm</p>
                 <p>Sunday: 11am - 5pm</p>
             </section>
-            <section className='hidden lg:flex text-md flex-col space-y-1 ml-[105px]'>
-                <Link href='/'>Home</Link>
-                <Link href='/#about'>About</Link>
-                <Link href='/#menu'>Menu</Link>
-                <Link href='/jobs'>Jobs</Link>
+            <section className='hidden lg:flex text-md flex-col space-y-1 ml-[103px]'>
+                <Link className='footer-links' href='/'>Home</Link>
+                <Link className='footer-links' href='/#about'>About</Link>
+                <Link className='footer-links'href='/#menu'>Menu</Link>
+                <Link className='footer-links' href='/jobs'>Jobs</Link>
             </section>
             <section className='footer-social lg:hidden'>
                 <p>Mon - Fri: 7am - 8pm</p>
                 <p>Saturday: 7am - 5pm</p>
                 <p>Sunday: 11am - 5pm</p>
             </section>
-            <section className='footer-social italic hidden lg:block lg:relative -right-4'>
+            <section className='footer-social italic hidden lg:block lg:relative -right-10'>
                 <p>3480 Oceanside Drive</p>
                 <p>Santa Barbara, CA</p>
                 <p>{`(248) 524-0859`}</p>
@@ -32,7 +32,6 @@ export default function Footer() {
             <section className='footer-social italic lg:hidden'>
                 <p>{`(248) 524-0859`}</p>
                 <p>contact@westoceansidecoffee.com</p>
-            
                 <section className='flex items-center space-x-3 pb-8 pt-2'>
                     <img className='cursor-pointer w-8 h-8' src='/icons/instagram-dark.png' alt='Instagram logo' />
                     <img className='cursor-pointer w-11 h-11 mb-1 relative top-0.5' src='/icons/facebook-dark.png' alt='Facebook logo' />

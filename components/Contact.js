@@ -9,13 +9,10 @@ export default function Contact() {
     // Get state from Context
     const { inputData, setInputData } = useContext(Context);    
 
-    // Boolean variable to validate email format with regex. Code referenced from 'https://www.w3resource.com/javascript/form/email-validation.php'
-    const emailVerification = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(inputData.email);
-
     // Prevents default behavior of button on submit, clears input fields if they are not empty and the email is valid.
     function clearForm(event) {
         event.preventDefault();
-        if (inputData.name && inputData.email && inputData.msg !== '' && emailVerification) {
+        if (inputData.name && inputData.email && inputData.msg !== '') {
             setInputData({name:'', email:'', msg:'',})
         }
     }
@@ -41,7 +38,7 @@ export default function Contact() {
                     <p className='text-xl'>{`(248) 524-0859`}</p>
                 </section>
                 
-                <form className='flex flex-col space-y-4 sm:mx-auto sm:w-[400px] md:w-[450px] lg:w-[500px] xl:w-[550px] body-text'>
+                <form method='post' className='flex flex-col space-y-4 sm:mx-auto sm:w-[400px] md:w-[450px] lg:w-[500px] xl:w-[550px] body-text'>
 
                     <section className='contact-form-section'>
                         <label className='contact-form-label' htmlFor='name'>Name</label>
@@ -58,7 +55,7 @@ export default function Contact() {
                         <textarea onChange={changeInputState} value={inputData.msg} required className='border outline-none max-h-72 min-h-[34px] border-gray-400 px-2 py-1 mb-4 rounded-lg shadow-md' id='message' name='msg' type='text' rows='4' cols='40'/>
                     </section>
 
-                    <button onSubmit={(e) => clearForm(e)} className='border border-gray-400 rounded-lg shadow-md w-40 h-7 mx-auto'>Send</button>
+                    <button onSubmit={(e) => clearForm(e)} className='border border-gray-400 rounded-lg shadow-md w-40 h-7 mx-auto hover:font-semibold hover:outline hover:outline-1'>Send</button>
 
                 </form>
 

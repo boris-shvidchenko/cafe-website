@@ -80,12 +80,16 @@
         @apply flex flex-col items-center
     }
 
+    .footer-links {
+        @apply hover:font-semibold
+    }
+
     .jobs-titles {
         @apply font-semibold text-lg
     }
 
     .jobs-link {
-        @apply italic cursor-pointer
+        @apply italic cursor-pointer hover:font-semibold hover:text-orange-600
     }
 
 

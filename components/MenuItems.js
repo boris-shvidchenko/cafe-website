@@ -20,7 +20,7 @@ export default function MenuItems({ title, description, ingredients, img }) {
             </div>
             <h3 className='text-xl ml-3 mt-2 mb-1 font-semibold body-text'>{title}</h3>
             <p className='mx-3 mb-2 body-text'>{description}</p>
-            <p className='mx-3 text-sm italic body-text'>{title !== 'Sweets' && 'Contains:'} <span>{`${ingr}`}</span></p>
+            <p className='mx-3 text-sm italic body-text text-[#3a3a3a]'>{title !== 'Sweets' && 'Contains:'} <span>{`${ingr}`}</span></p>
         </div>
     )
 }
