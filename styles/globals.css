@@ -11,6 +11,10 @@
 }
 
 @layer components {
+
+    .modal-links {
+        @apply hover:font-semibold hover:text-orange-600
+    }
     
     .nav-link-container {
         @apply hidden md:flex md:space-x-14 lg:space-x-20 xl:space-x-32 2xl:space-x-36
@@ -37,11 +41,19 @@
     }
     
     .about-address {
-        @apply hidden xl:block mx-9 text-center text-xl body-text
+        @apply hidden xl:block mx-9 text-xl body-text
     }
 
     .about-address-mobile {
         @apply xl:hidden mx-10 md:mx-1 text-xl body-text
+    }
+
+    .menu-item-headers {
+        @apply text-lg sm:text-xl md:text-2xl ml-10 md:ml-0 my-4 lg:mb-8 header-text
+    }
+
+    .menu-item-section {
+        @apply flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto pb-7 scrollbar-thin scrollbar-thumb-gray-500
     }
 
     .nav-placeholder-div {

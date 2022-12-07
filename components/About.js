@@ -19,8 +19,10 @@ export default function About() {
                 <section className='xl:flex flex-col space-y-4'>
                     <p className='hidden lg:block ml-9 body-text'>Opened in 2018, West Oceanside Coffee has been serving the local community with high quality coffee from locally sources products. We offer a variety of drinks, menu items, and other products. Drop by and grab something to go, hang out after a surf session, or simply come and enjoy our beach side location with your family!</p>
                     <p className= 'hidden xl:block mx-9 pb-5 body-text'>We are located just west of Carpinteria, on Oceanside Drive. Come say hello!</p>
-                    <p className= 'about-address'>3480 Oceanside Drive</p>
-                    <p className= 'about-address'>Santa Barbara, CA</p>
+                    <section className='flex flex-col space-y-2'>
+                        <p className= 'about-address'>3480 Oceanside Drive</p>
+                        <p className= 'about-address'>Santa Barbara, CA</p>
+                    </section>
                 </section>
             </section>
             <section className='lg:flex justify-between'>
@@ -34,7 +36,7 @@ export default function About() {
                     alt='An image of a lifeguard tower on a beach, during sunset.'
                     width={1000}
                     height={1000}
-                    className='about-image xl:w-[80%] xl:mt-5'
+                    className='about-image xl:w-[80%] mt-3 xl:mt-5'
                 />
             </section>
         </div>

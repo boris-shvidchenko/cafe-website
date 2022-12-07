@@ -40,15 +40,15 @@ export default function Menu() {
                 <div id='menu' className='nav-placeholder-div'></div>
                 <h1 className='body-headers lg:mb-6'>Our Products</h1>
                 <p className='mx-10 md:mx-0 body-text'>We serve traditional coffee drinks, hot and cold, and have a selection of daily prepped foods. We also offer a selection soft drinks and snacks.</p>
-                <section className='mb-10'>
-                    <h3 className='text-lg sm:text-xl md:text-2xl ml-10 md:ml-0 my-4 lg:mb-8 header-text'>Drinks</h3>
-                    <section className='flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto pb-7 scrollbar-thin scrollbar-thumb-gray-500'>
+                <section className='mb-6'>
+                    <h3 className='menu-item-headers'>Drinks</h3>
+                    <section className='menu-item-section'>
                         {drinksArray}
                     </section>
                 </section>
-                <section className='mb-5 md:mb-10 lg:mb-14'>
-                    <h3 className='text-lg sm:text-xl md:text-2xl ml-10 md:ml-0 my-4 lg:mb-8 header-text'>Food</h3>
-                    <section className='flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto pb-6 lg:pb-7 scrollbar-thin scrollbar-thumb-gray-500'>
+                <section className='mb-6 md:mb-10 lg:mb-14'>
+                    <h3 className='menu-item-headers'>Food</h3>
+                    <section className='menu-item-section lg:pb-7'>
                         {foodArray}
                     </section>
                 </section>
