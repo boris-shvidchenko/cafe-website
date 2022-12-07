@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .header-text {
-    
-} */
+.header-text {
+    font-family: 'Lora', serif;
+}
 
 .body-text {
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +25,7 @@
     }
 
     .header-h1 {
-        @apply text-white text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl
+        @apply text-white text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl header-text
     }
 
     .about-image {
@@ -45,7 +45,7 @@
     }
 
     .body-headers {
-        @apply text-2xl sm:text-3xl md:text-4xl ml-10 md:ml-0 mb-4 lg:mb-10
+        @apply text-2xl sm:text-3xl md:text-4xl ml-10 md:ml-0 mb-4 lg:mb-10 header-text
     }
 
     .contact-form-label {

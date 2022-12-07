@@ -7,7 +7,7 @@ export default function JobListings() {
             <h1 className='body-headers'>Join our Team!</h1>
             <p className='mx-10 md:ml-0'>We currently have 2 openings for a Manager and a part time Barista position, we will post new positions here when they are  available as well so make sure to check back soon! Dont see a posting you like? Send us a resume anyway, and we'll get back to you when another opportunity comes up.</p>
             <p className='ml-10 md:ml-0 mt-5 text-lg italic'>contact@westoceansidecoffee.com</p>
-            <h3 className='text-xl md:text-2xl ml-10 md:ml-0 mb-4 mt-5'>Open Positions</h3>
+            <h3 className='text-xl md:text-2xl ml-10 md:ml-0 mb-4 mt-5 header-text'>Open Positions</h3>
 
             <table className='mb-10 ml-10 md:ml-0 border-separate border-spacing-x-6 border-spacing-y-1'>
                 <tbody>

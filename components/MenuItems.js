@@ -16,7 +16,7 @@ export default function MenuItems({ title, description, ingredients, img }) {
                     className='h-64 lg:h-80 object-cover rounded-t-3xl'
                 />
             </div>
-            <h3 className='text-xl ml-3 mt-1 mb-2'>{title}</h3>
+            <h3 className='text-xl ml-3 mt-1 mb-2 underline body-text'>{title}</h3>
             <p className='mx-3 mb-3 body-text'>{description}</p>
             <p className='mx-3 text-sm italic body-text'>{title !== 'Sweets' && 'Contains:'} <span>{`${ingr}`}</span></p>
         </div>
