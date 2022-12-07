@@ -12,12 +12,16 @@
 
 @layer components {
     
-    .nav-link {
+    .nav-link-container {
         @apply hidden md:flex md:space-x-14 lg:space-x-20 xl:space-x-32 2xl:space-x-36
     }
 
     .nav-link-mobile {
         @apply hidden sm:block
+    }
+
+    .nav-links {
+        @apply hover:font-semibold hover:text-orange-600 hover:after:block hover:after:h-[2px] hover:after:bg-orange-600 hover:after:relative hover:after:top-1 hover:after:-mt-1
     }
 
     .page-sizing {
