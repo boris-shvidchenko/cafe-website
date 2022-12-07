@@ -34,7 +34,7 @@ export default function Contact() {
         <div className='page-sizing'>
             <div id='contact' className='nav-placeholder-div'></div>
             <h1 className='body-headers sm:text-center md:mb-7'>Get in Touch</h1>
-            <section className='mx-10 md:mx-0 flex flex-col space-y-4 mb-10'>
+            <section className='mx-10 md:mx-0 flex flex-col space-y-4 mb-16'>
 
                 <section className='flex flex-col space-y-4 mb-2 sm:text-center sm:w-96 md:w-[500px] lg:w-[550px] xl:w-[750px] sm:mx-auto'>
                     <p>Send us a message! Tell us what you loved or what we can improve. We'd love to hear from you and will respond as soon as we can. Or, give us a call.</p>

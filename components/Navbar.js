@@ -33,7 +33,7 @@ export default function Navbar() {
             </section>
             <section className='flex space-x-9 md:hidden mr-10'>
                 <Link href='/' className='nav-link-mobile'>Home</Link>
-                <Link href='#about' className='nav-link-mobile'>About</Link>
+                <Link href='/#about' className='nav-link-mobile'>About</Link>
                 <Link href='/#menu' className='nav-link-mobile'>Menu</Link>
                 <Link href='/#contact' className='nav-link-mobile'>Contact</Link>
                 {!modal && <Bars3Icon onClick={() => openModal(modal, setModal)} className='sm:hidden h-6 w-6 cursor-pointer'/>}
