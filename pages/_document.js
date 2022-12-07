@@ -10,14 +10,10 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet" />
-        {/* The link tags below are for/from Google Fonts for the title text */}
-
         {/* The link tags below are for/from Google Fonts for the header text */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
-
-        
         {/* Favicon */}
         <link rel='icon' href='/icons/favicon.png' />
       </Head>

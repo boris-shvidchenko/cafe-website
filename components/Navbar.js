@@ -19,14 +19,22 @@ export default function Navbar() {
     const { modal, setModal } = useContext(Context);
 
     return (
-        <nav className='flex justify-between items-center h-16 md:h-20 2xl:h-24 page-sizing border-b border-gray-300 bg-white sticky top-0 z-10'>
+        <nav className='flex justify-between items-center h-16 md:h-20 2xl:h-24 page-sizing border-b border-gray-300 bg-white sticky top-0 z-10 body-text'>
             
-            <Link href='/' className='md:hidden ml-10'>Logo</Link>
+
+            <Link href='/' className='md:hidden ml-10'><img src='/icons/favicon.png' alt='Logo' /></Link>
+            
             <section className='nav-link pl-5'>
                 <Link href='/'>Home</Link>
                 <Link href='/#about'>About</Link>
             </section>
-            <Link href='/' className='hidden md:block'>Logo</Link>
+
+            <section className='hidden md:flex items-center lg:space-x-2 2xl:space-x-4'>
+                <Link href='/' className='lg:hidden'><img src='/icons/favicon.png' alt='Logo' /></Link>
+                <img className='hidden lg:block' src='/icons/favicon.png' alt='Logo' />
+                <Link href='/'><h1 className=' text-md lg:text-xl xl:text-2xl md:hidden lg:block font-semibold'>West Oceanside Coffee</h1></Link>
+            </section>
+
             <section className='nav-link pr-5'>
                 <Link href='/#menu'>Menu</Link>
                 <Link href='/#contact'>Contact</Link>
@@ -41,3 +49,5 @@ export default function Navbar() {
         </nav>
     )
 }
+
+{/* <img src='/icons/favicon.png' /> */}
