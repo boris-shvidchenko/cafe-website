@@ -37,7 +37,7 @@ export default function Menu() {
         <div className='page-sizing mt-5 md:mt-10 lg:mt-14'>
             <div id='menu' className='nav-placeholder-div'></div>
             <h1 className='body-headers lg:mb-6'>Our Products</h1>
-            <p className='mx-10 md:mx-0'>We serve traditional coffee drinks, hot and cold, and have a selection of daily prepped foods. We also offer a selection soft drinks and snacks.</p>
+            <p className='mx-10 md:mx-0 body-text'>We serve traditional coffee drinks, hot and cold, and have a selection of daily prepped foods. We also offer a selection soft drinks and snacks.</p>
             <section className='mb-10'>
                 <h3 className='text-lg sm:text-xl md:text-2xl ml-10 md:ml-0 my-4 lg:mb-8'>Drinks</h3>
                 <section className='flex space-x-10 md:space-x-20 mx-10 md:mx-0 overflow-x-auto pb-7 scrollbar-thin scrollbar-thumb-gray-500'>

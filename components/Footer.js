@@ -2,13 +2,13 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <div className='page-sizing flex flex-col lg:flex-row md:text-sm md:justify-between items-center space-y-5 bg-blue-200 md:bg-white pt-5 lg:pb-12 lg:text-center lg:justify-around border-t border-gray-300'>
+        <div className='page-sizing flex flex-col lg:flex-row md:text-sm md:justify-between items-center space-y-5 bg-blue-200 md:bg-white pt-5 lg:pb-12 lg:text-center lg:justify-around border-t border-gray-300 body-text'>
             <section className='hidden lg:block footer-social italic'>
                 <p>Mon - Fri: 7am - 8pm</p>
                 <p>Saturday: 7am - 5pm</p>
                 <p>Sunday: 11am - 5pm</p>
             </section>
-            <section className='hidden lg:flex text-md flex-col space-y-1 ml-[73px]'>
+            <section className='hidden lg:flex text-md flex-col space-y-1 ml-[105px]'>
                 <Link href='/'>Home</Link>
                 <Link href='/#about'>About</Link>
                 <Link href='/#menu'>Menu</Link>

@@ -19,7 +19,7 @@ export default function Modal() {
     const { modal, setModal } = useContext(Context);
 
     return (
-        <nav onClick={() => openModal(modal, setModal)} className='flex flex-col pt-16 items-center space-y-8 mx-auto fixed top-0 w-screen h-screen text-white bg-black/80 z-20 text-2xl'>
+        <nav onClick={() => openModal(modal, setModal)} className='flex flex-col pt-16 items-center space-y-8 mx-auto fixed top-0 w-screen h-screen text-white bg-black/80 z-20 text-2xl body-text'>
             <XMarkIcon className='h-6 w-6 fixed top-5 right-10 cursor-pointer'/>
             <Link href='/' className=''>Home</Link>
             <Link href='/#about' className=''>About</Link>

@@ -112,7 +112,7 @@ export const drinks = [
     },
     {
       "title": "Ristretto",
-      "description": "Ristretto is an espresso shot that uses less hot water which creates a sweeter flavor compared to the bitter taste of a traditional shot of espresso.",
+      "description": "Ristretto is an espresso shot that uses less hot water to create a sweeter flavor compared to traditional a shot of espresso.",
       "ingredients": [
         "Short pulled espresso"
       ],

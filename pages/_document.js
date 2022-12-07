@@ -7,6 +7,10 @@ export default function Document() {
     <Html>
       <Head>
         {/* The link tags below are for/from Google Fonts for the body text */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet" />
+
         
         {/* Favicon */}
         <link rel='icon' href='/icons/favicon.png' />

@@ -36,12 +36,12 @@ export default function Contact() {
             <h1 className='body-headers sm:text-center md:mb-7'>Get in Touch</h1>
             <section className='mx-10 md:mx-0 flex flex-col space-y-4 mb-16'>
 
-                <section className='flex flex-col space-y-4 mb-2 sm:text-center sm:w-96 md:w-[500px] lg:w-[550px] xl:w-[750px] sm:mx-auto'>
+                <section className='flex flex-col space-y-4 mb-2 sm:text-center sm:w-96 md:w-[500px] lg:w-[550px] xl:w-[750px] sm:mx-auto body-text'>
                     <p>Send us a message! Tell us what you loved or what we can improve. We'd love to hear from you and will respond as soon as we can. Or, give us a call.</p>
                     <p className='text-xl'>{`(248) 524-0859`}</p>
                 </section>
                 
-                <form className='flex flex-col space-y-4 sm:mx-auto sm:w-[400px] md:w-[450px] lg:w-[500px] xl:w-[550px]'>
+                <form className='flex flex-col space-y-4 sm:mx-auto sm:w-[400px] md:w-[450px] lg:w-[500px] xl:w-[550px] body-text'>
 
                     <section className='contact-form-section'>
                         <label className='contact-form-label' htmlFor='name'>Name</label>

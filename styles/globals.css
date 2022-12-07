@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .header-text {
+    
+} */
+
+.body-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
 @layer components {
     
     .nav-link {
@@ -25,11 +33,11 @@
     }
     
     .about-address {
-        @apply hidden xl:block mx-9 text-center text-xl
+        @apply hidden xl:block mx-9 text-center text-xl body-text
     }
 
     .about-address-mobile {
-        @apply xl:hidden mx-10 md:mx-1 text-xl
+        @apply xl:hidden mx-10 md:mx-1 text-xl body-text
     }
 
     .nav-placeholder-div {
