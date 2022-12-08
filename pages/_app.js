@@ -31,7 +31,7 @@ export default function MyApp({ Component, pageProps }) {
       return () => window.removeEventListener('resize', handleResize);
     }
   }, []); 
-  console.log(mobileView.width)
+
   return (
     <Context.Provider value={{modal, setModal, inputData, setInputData, mobileView}}>
       <Head>

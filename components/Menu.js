@@ -56,7 +56,7 @@ export default function Menu() {
                 </section>
                 <section className='mb-6 md:mb-10 lg:mb-14'>
                     <h3 className='menu-item-headers'>Food</h3>
-                    <section className={`menu-item-section lg:pb-7 ${mobileView?.width < '485' ? 'scrollbar-thumb-transparent mx-0 px-5 pb-0' : ''}`}>
+                    <section className={`menu-item-section lg:pb-7 ${mobileView?.width < '485' ? 'scrollbar-thumb-transparent mx-0 px-5' : ''}`}>
                         {foodArray}
                     </section>
                 </section>
