@@ -22,7 +22,7 @@ export default function Header() {
                 priority
             />
             <div className={`absolute top-0 left-0 bg-black/10 ${mobileView?.width < '485' ? 'bg-black/20' : ''} w-full h-full`}></div>
-            <section className={`absolute top-4 left-4 ${mobileView?.width < '485' ? '-top-3 -left-0' : ''} sm:top-10  sm:left-10 p-10`}>
+            <section className={`absolute top-4 left-4 ${mobileView?.width < '485' ? '-top-3 -left-1' : ''} sm:top-10  sm:left-10 p-10`}>
                 <h1 className={`header-h1 mb-3 ${mobileView?.width < '485' ? 'text-3xl' : ''}`}>High quality coffee</h1>
                 <h1 className={`header-h1 mb-8 ${mobileView?.width < '485' ? 'text-3xl mb-6' : ''}`}>since 2018</h1>
                 <hr className={`mb-8 border w-52 lg:w-64 xl:w-80 2xl:w-96 ${mobileView?.width < '485' ? 'hidden' : ''}`}/>
