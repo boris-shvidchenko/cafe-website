@@ -91,6 +91,4 @@
     .jobs-link {
         @apply italic cursor-pointer hover:font-semibold hover:text-orange-600
     }
-
-
 }

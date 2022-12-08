@@ -1,4 +1,4 @@
-// Opens/closes the nav modal in mobile view
+// Opens/closes the Nav modal in mobile view
 export default function openModal(modal, setModal) {
     setModal(!modal);
 };

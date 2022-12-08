@@ -10,7 +10,7 @@ export const food = [
         ],
         "image": "https://images.pexels.com/photos/6492/food-breakfast-fork-bagel.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "id": 1
-      },
+    },
     {
       "title": "Burrito",
       "description": "A breakfast style burrito with your choice of meat and ingredients. Comes with a side of salsa.",
