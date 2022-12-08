@@ -5,7 +5,16 @@ import MenuItems from './MenuItems';
 import { drinks } from '../drinksMenuData';
 import { food } from '../foodMenuData';
 
+// Context
+import { Context } from '../pages/_app';
+
+// Hooks
+import { useContext } from 'react';
+
 export default function Menu() {
+
+    // Get state from Context
+    const { mobileView } = useContext(Context);
 
     // drinksArray will map through, and store, the data from drinksMenuData.js
     const drinksArray = drinks.map((drink) => {
@@ -41,13 +50,13 @@ export default function Menu() {
                 <p className='mx-10 md:mx-0 body-text'>We serve traditional coffee drinks, hot and cold, and have a selection of daily prepped foods. We also offer a selection soft drinks and snacks.</p>
                 <section className='mb-6'>
                     <h3 className='menu-item-headers'>Drinks</h3>
-                    <section className='menu-item-section'>
+                    <section className={`menu-item-section ${mobileView?.width < '485' ? 'scrollbar-thumb-transparent mx-0 px-10' : ''}`}>
                         {drinksArray}
                     </section>
                 </section>
                 <section className='mb-6 md:mb-10 lg:mb-14'>
                     <h3 className='menu-item-headers'>Food</h3>
-                    <section className='menu-item-section lg:pb-7'>
+                    <section className={`menu-item-section lg:pb-7 ${mobileView?.width < '485' ? 'scrollbar-thumb-transparent mx-0 px-10' : ''}`}>
                         {foodArray}
                     </section>
                 </section>

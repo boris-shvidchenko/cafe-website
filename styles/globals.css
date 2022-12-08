@@ -89,6 +89,6 @@
     }
 
     .jobs-link {
-        @apply italic cursor-pointer hover:font-semibold hover:text-orange-600
+        @apply italic cursor-pointer hover:font-semibold hover:text-orange-600 active:text-orange-600 
     }
 }
