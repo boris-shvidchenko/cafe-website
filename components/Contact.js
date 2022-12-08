@@ -38,7 +38,7 @@ export default function Contact() {
                     <p className='text-xl'>{`(248) 524-0859`}</p>
                 </section>
                 
-                <form method='post' className='flex flex-col space-y-4 sm:mx-auto sm:w-[400px] md:w-[450px] lg:w-[500px] xl:w-[550px] body-text'>
+                <form onSubmit={(e) => clearForm(e)} method='post' className='flex flex-col space-y-4 sm:mx-auto sm:w-[400px] md:w-[450px] lg:w-[500px] xl:w-[550px] body-text'>
 
                     <section className='contact-form-section'>
                         <label className='contact-form-label' htmlFor='name'>Name</label>
@@ -55,7 +55,7 @@ export default function Contact() {
                         <textarea onChange={changeInputState} value={inputData.msg} required className='border outline-none max-h-72 min-h-[34px] border-gray-400 px-2 py-1 mb-4 rounded-lg shadow-md' id='message' name='msg' type='text' rows='4' cols='40'/>
                     </section>
 
-                    <button onSubmit={(e) => clearForm(e)} className='border border-gray-400 rounded-lg shadow-md w-40 h-7 mx-auto hover:font-semibold hover:outline hover:outline-1'>Send</button>
+                    <button className='border border-gray-400 rounded-lg shadow-md w-40 h-7 mx-auto hover:font-semibold hover:outline hover:outline-1'>Send</button>
 
                 </form>
 
