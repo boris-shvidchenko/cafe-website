@@ -12,21 +12,24 @@ export default function JobListings() {
     // Get state from Context
     const { mobileView } = useContext(Context);   
 
+    // Styles
+    const mobileText = mobileView?.width < '485' ? 'text-sm' : '';
+
     return (
         <div className='page-sizing pt-10 body-text'>
             <h1 className='body-headers'>Join our Team!</h1>
             <p className='mx-10 md:ml-0'>We currently have 2 openings for a Manager and a part time Barista, we will post new positions here when they are  available as well so make sure to check back soon! Dont see a posting you like? Send us a resume anyway, and we'll get back to you when another opportunity comes up.</p>
-            <p className={`ml-10 md:ml-0 mt-5 text-lg italic ${mobileView?.width < '485' ? 'text-sm' : ''}`}>contact@westoceansidecoffee.com</p>
+            <p className={`ml-10 md:ml-0 mt-5 text-lg italic ${mobileText}`}>contact@westoceansidecoffee.com</p>
             <h3 className='text-xl md:text-2xl ml-10 md:ml-0 mb-4 mt-5 header-text'>Open Positions</h3>
             <table className='mb-10 ml-10 md:ml-0 border-separate border-spacing-x-6 border-spacing-y-1'>
                 <tbody>
                     <tr>
-                        <td className={`jobs-titles ${mobileView?.width < '485' ? 'text-sm' : ''}`}>Manager</td>
-                        <td className={`jobs-link ${mobileView?.width < '485' ? 'text-sm' : ''}`}>{`Apply Now >`}</td>
+                        <td className={`jobs-titles ${mobileText}`}>Manager</td>
+                        <td className={`jobs-link ${mobileText}`}>{`Apply Now >`}</td>
                     </tr>
                     <tr>
-                        <td className={`jobs-titles ${mobileView?.width < '485' ? 'text-sm' : ''}`}>{`Barista (Part-Time)`}</td>
-                        <td className={`jobs-link ${mobileView?.width < '485' ? 'text-sm' : ''}`}>{`Apply Now >`}</td>
+                        <td className={`jobs-titles ${mobileText}`}>{`Barista (Part-Time)`}</td>
+                        <td className={`jobs-link ${mobileText}`}>{`Apply Now >`}</td>
                     </tr>
                 </tbody>
             </table>
