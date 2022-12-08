@@ -20,7 +20,7 @@ export default function Navbar() {
 
     return (
         <nav className='flex justify-between items-center h-16 md:h-20 2xl:h-24 page-sizing mx-0 md:px-28 lg:px-32 xl:px-40 2xl:px-64 border-b border-gray-300 bg-white sticky top-0 z-10 body-text'>
-            <Link href='/' className={`${mobileView?.width < '485' ? 'ml-7' : ''} ?md:hidden ml-10`}><img src='/icons/favicon.png' alt='Logo' /></Link>
+            <Link href='/' className={`${mobileView?.width < '485' ? 'ml-7' : ''}md:hidden pt-1 md:pt-0 ml-10`}><img src='/icons/favicon.png' alt='Logo' /></Link>
             <section className='nav-link-container pl-5'>
                 <Link className='nav-links' href='/'>Home</Link>
                 <Link className='nav-links' href='/#about'>About</Link>

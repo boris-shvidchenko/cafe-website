@@ -27,7 +27,7 @@ export default function About() {
             </section>
             <section className='lg:flex justify-between'>
                 <section className='flex flex-col xl:hidden md:-mt-10'>
-                    <p className= 'mx-10 md:mx-1  md:mt-10 lg:mr-9 pb-4 body-text'>We are located just west of Carpinteria, on Oceanside Drive. Come say hello!</p>
+                    <p className= 'mx-10 md:mx-1 -mt-4 md:mt-10 lg:mr-9 pb-4 body-text'>We are located just west of Carpinteria, on Oceanside Drive. Come say hello!</p>
                     <p className= 'about-address-mobile'>3480 Oceanside Drive</p>
                     <p className= 'about-address-mobile mb-7 '>Santa Barbara, CA</p>
                 </section>
