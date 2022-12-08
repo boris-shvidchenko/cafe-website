@@ -5,7 +5,7 @@ export default function JobListings() {
     return (
         <div className='page-sizing pt-10 body-text'>
             <h1 className='body-headers'>Join our Team!</h1>
-            <p className='mx-10 md:ml-0'>We currently have 2 openings for a Manager and a part time Barista position, we will post new positions here when they are  available as well so make sure to check back soon! Dont see a posting you like? Send us a resume anyway, and we'll get back to you when another opportunity comes up.</p>
+            <p className='mx-10 md:ml-0'>We currently have 2 openings for a Manager and a part time Barista, we will post new positions here when they are  available as well so make sure to check back soon! Dont see a posting you like? Send us a resume anyway, and we'll get back to you when another opportunity comes up.</p>
             <p className='ml-10 md:ml-0 mt-5 text-lg italic'>contact@westoceansidecoffee.com</p>
             <h3 className='text-xl md:text-2xl ml-10 md:ml-0 mb-4 mt-5 header-text'>Open Positions</h3>
 

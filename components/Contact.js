@@ -34,7 +34,7 @@ export default function Contact() {
             <section className='mx-10 md:mx-0 flex flex-col space-y-4 mb-16'>
 
                 <section className='flex flex-col space-y-4 mb-2 sm:text-center sm:w-96 md:w-[500px] lg:w-[550px] xl:w-[750px] sm:mx-auto body-text'>
-                    <p>Send us a message! Tell us what you loved or what we can improve. We'd love to hear from you and will respond as soon as we can. Or, give us a call.</p>
+                    <p>Send us a message! Tell us what you liked or what we can improve on. We'd love to hear from you and will respond as soon as we can. Or, give us a call.</p>
                     <p className='text-xl'>{`(248) 524-0859`}</p>
                 </section>
                 

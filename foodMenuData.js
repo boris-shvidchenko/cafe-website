@@ -82,7 +82,7 @@ export const food = [
     },
     {
       "title": "Wraps",
-      "description": "A wrap with a choice of meat, cheese, and vegetables. Or try our vegetarian option.",
+      "description": "A wrap with your choice of meat, cheese, and vegetables. Or try our vegetarian option.",
       "ingredients": [
         "Chicken",
         "Bacon",
@@ -93,7 +93,7 @@ export const food = [
     },
     {
       "title": "Muffins",
-      "description": "Plain, chocolate, strawberry, banana nut, bluberry, and many more! Additional toppings available.",
+      "description": "Plain, chocolate, strawberry, banana nut, blueberry, and many more! Additional toppings available.",
       "ingredients":  [
         "Flour", 
         "Eggs",
